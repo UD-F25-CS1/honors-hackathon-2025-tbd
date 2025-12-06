@@ -145,7 +145,3 @@ def draw_cards(state: State, num_cards: int, player: Player):
             card = state.deck.pop()
             player.cards.append(card)
 
-### Run Flask app
-
-if __name__ == '__main__':
-    app.run(debug=True)
